@@ -1,0 +1,7 @@
+# 数据中心 http://www.yumc.pw 收集的数据仅用于统计插件使用情况
+guid: 51245452-c82a-41e4-a5a3-05d04cf2e343
+debug: false
+YumAccount:
+  username: Username Not Set
+  password: Password NotSet
+TellrawManualHandle: false

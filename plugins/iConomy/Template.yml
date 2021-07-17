@@ -1,0 +1,45 @@
+# 
+# Messaging Template
+tag:
+  money: '<green>[<white>资金信息<green>] '
+personal:
+  balance: <green>账户资金： <white>+balance
+  reset: <rose>你的账户已被重置.
+  set: <green>你的资金被设置为<white>+amount
+  debit: <rose>你的资金被扣除<white>+amount<rose>.
+  credit: <white>+amount<green> 已打入你的账户
+  status: <green>账户当前状态： <white>+status<green>.
+player:
+  set: <green>+name的资金被设置为 <white>+amount
+  balance: <green>+name的资金： <white>+balance
+  reset: <white>+name<rose>的账户被重置
+  credit: <white>+name<green>的账户收到<white>+amount<green>.
+  debit: <white>+name<rose>的账户被扣除<white>+amount<rose>.
+  status: <white>+name<green>的账户当前状态： <white>+status<green>.
+payment:
+  self: <rose>你不能给自己打钱
+  to: <green>你发送<white>+amount<green> 给 <white>+name<green>.
+  from: <white>+name<green>发给你<white>+amount<green>.
+statistics:
+  opening: <green>-----[ <white>iConomy 状态 <green>]-----
+  total: <gray>总值 +currency： <white>+amount
+  average: <gray>平均 +currency： <white>+amount
+  accounts: <gray>全部账户： <white>+amount
+interest:
+  announcement: 获得利息 +amount <green>.
+accounts:
+  empty: <rose>已清空 <white>所有<rose> 账户
+  purge: <rose>所有冻结账户已被清空
+  create: <green>创建账户： <white>+name<green>.
+  remove: <green>移除账户： <white>+name<green>.
+  status: <green>账户当前状态： <white>+status<green>.
+top:
+  opening: <green>-----[ <white>Wealthiest Accounts <green>]-----
+  item: <gray>+i. <green>+name <gray>- <white>+amount
+error:
+  online: <rose>没有其他人在线
+  exists: <rose>账户已存在
+  create: <rose>不能创建账户： <white>+name<rose>.
+  remove: <rose>不能移除账户： <white>+name<rose>.
+  account: <rose>账户 <white>+name<rose> 不存在
+  funds: <rose>你没有足够的钱那样做!

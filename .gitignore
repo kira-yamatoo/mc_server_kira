@@ -1,10 +1,19 @@
 
 world/*
-plugins/Essentials/userdata/*
-plugins/Essentials/usermap.csv
 logs/*
 libraries/*
 
+plugins/Essentials/userdata/*
+plugins/Essentials/usermap.csv
+
+plugins/AuthMe/authme.*
+plugins/AuthMe/playerdata/*
+plugins/AuthMe/*.html
+
+plugins/ChestShop/items.db
+plugins/bStats
+
+plugins/LuckPerms/yaml-storage/uuidcache.txt
 
 usernamecache.json
 usercache.json
@@ -12,7 +21,6 @@ ops.json
 whitelist.json
 banned-ips.json
 banned-players.json
-
 
 permissions.yml
 
