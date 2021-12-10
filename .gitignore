@@ -24,3 +24,7 @@ banned-players.json
 
 permissions.yml
 
+spigot.yml
+server.properties
+eula.txt
+plugins/ProtocolLib/lastupdate
